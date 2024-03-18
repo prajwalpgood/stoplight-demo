@@ -1,0 +1,21 @@
+title: joke
+x-stoplight:
+  id: rsfied7e23fip
+type: object
+properties:
+  id:
+    type: number
+    x-stoplight:
+      id: o99607szxjpul
+  type:
+    type: string
+    x-stoplight:
+      id: ikocejq8t55o1
+  punchLine:
+    type: string
+    x-stoplight:
+      id: sfxmwkrulvdty
+  setup:
+    type: string
+    x-stoplight:
+      id: ixu6t56ues2mf

@@ -1,0 +1,42 @@
+openapi: 3.1.0
+x-stoplight:
+  id: awolugelzqodv
+info:
+  title: joke-api
+  version: '1.0'
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /random_joke:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ./joke.yaml
+          headers: {}
+        '500':
+          description: Internal Server Error
+          headers: {}
+      operationId: getRandomJoke
+      x-stoplight:
+        id: mmithqd55bedk
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                '':
+                  type: string
+                  x-stoplight:
+                    id: w65rwskamx107
+    servers:
+      - url: ''
+        description: ''
+components:
+  schemas: {}

@@ -1,0 +1,17 @@
+title: error
+x-stoplight:
+  id: sgtg5tbd13mcb
+type: object
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: 5shwqt5q8aclj
+  code:
+    type: string
+    x-stoplight:
+      id: zr4duwedhrhb0
+  message:
+    type: string
+    x-stoplight:
+      id: jmxoeknxqv0k4
